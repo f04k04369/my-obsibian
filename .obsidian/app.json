@@ -1,4 +1,5 @@
 {
-  "newFileLocation": "current",
-  "attachmentFolderPath": "_assets/images"
+  "newFileLocation": "folder",
+  "attachmentFolderPath": "_assets/images",
+  "newFileFolderPath": "00_Inbox"
 }
