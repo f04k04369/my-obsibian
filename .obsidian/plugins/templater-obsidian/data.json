@@ -32,6 +32,7 @@
     ""
   ],
   "startup_templates": [
+    "_template/main_template.md",
     ""
   ],
   "intellisense_render": 1
