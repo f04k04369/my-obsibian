@@ -25,14 +25,13 @@
             "id": "90a24280a9ed9fd9",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "_template/main_template.md",
-                "mode": "source",
-                "source": false
+                "file": "読書記録ボード.base",
+                "viewName": "View"
               },
-              "icon": "lucide-file",
-              "title": "main_template"
+              "icon": "lucide-layout-grid",
+              "title": "読書記録ボード"
             }
           }
         ],
@@ -190,7 +189,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -206,11 +206,13 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "90a24280a9ed9fd9",
+  "active": "26a8828c26ef2416",
   "lastOpenFiles": [
-    "00_Inbox/スマホのObsidianをGitで同期(2024.11).md",
+    "00_Inbox/250822_Obsidian で vim を使ってみた｜devlive.md",
+    "読書記録ボード.base",
+    "00_Inbox/250822_難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
+    "00_Inbox/250822_スマホのObsidianをGitで同期(2024.11).md",
     "_template/main_template.md",
-    "00_Inbox/難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
     "00_Inbox/2025-08-22.md",
     "00_Inbox/無題のファイル.md",
     "00_Inbox/Invalid date.md",
@@ -219,7 +221,6 @@
     "無題のファイル.md",
     "Clippings/無題のファイル.md",
     "_template",
-    "無題のファイル.base",
     "2025-08-21.md",
     "README.md",
     "Welcome.md",
