@@ -11,14 +11,13 @@
             "id": "c955145a18954171",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "Clippings/スマホのObsidianをGitで同期(2024.11).md",
-                "mode": "source",
-                "source": false
+                "file": "無題のファイル.base",
+                "viewName": "Table"
               },
-              "icon": "lucide-file",
-              "title": "スマホのObsidianをGitで同期(2024.11)"
+              "icon": "lucide-table",
+              "title": "無題のファイル"
             }
           }
         ]
@@ -94,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Clippings/スマホのObsidianをGitで同期(2024.11).md",
+                "file": "無題のファイル.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "スマホのObsidianをGitで同期(2024.11)へのバックリンク"
+              "title": "無題のファイルへのバックリンク"
             }
           },
           {
@@ -190,11 +189,12 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "c955145a18954171",
+  "active": "26a8828c26ef2416",
   "lastOpenFiles": [
+    "Clippings/スマホのObsidianをGitで同期(2024.11).md",
+    "無題のファイル 1.base",
     "README.md",
     "無題のファイル.base",
-    "Clippings/スマホのObsidianをGitで同期(2024.11).md",
     "Clippings",
     "assets",
     "Welcome.md",
