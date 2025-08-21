@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_template/main_template.md",
+                "file": "00_Inbox/スマホのObsidianをGitで同期(2024.11).md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "main_template"
+              "title": "スマホのObsidianをGitで同期(2024.11)"
             }
           }
         ],
@@ -208,15 +208,15 @@
   },
   "active": "90a24280a9ed9fd9",
   "lastOpenFiles": [
-    "00_Inbox/スマホのObsidianをGitで同期(2024.11).md",
     "_template/main_template.md",
+    "00_Inbox/スマホのObsidianをGitで同期(2024.11).md",
+    "00_Inbox/難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
     "00_Inbox/2025-08-22.md",
     "00_Inbox/無題のファイル.md",
     "00_Inbox/Invalid date.md",
     "00_Inbox/無題のファイル 1.md",
     "00_Inbox/無題のファイル 2.md",
     "無題のファイル.md",
-    "00_Inbox/難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
     "Clippings/無題のファイル.md",
     "_template",
     "無題のファイル.base",

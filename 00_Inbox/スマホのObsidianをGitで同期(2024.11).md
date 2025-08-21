@@ -1,13 +1,13 @@
 ---
-title: "スマホのObsidianをGitで同期(2024.11)"
-source: "https://zenn.dev/ishikawa096/articles/158246fc5a5d62"
+title: スマホのObsidianをGitで同期(2024.11)
+source: https://zenn.dev/ishikawa096/articles/158246fc5a5d62
 author:
   - "[[Zenn]]"
 published: 2024-11-10
 created: 2025-08-21
 description:
 tags:
-  - "clippings"
+  - clippings
 ---
 98
 
