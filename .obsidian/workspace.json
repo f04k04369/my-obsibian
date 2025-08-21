@@ -4,20 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "521e1b06b1751b0d",
+        "id": "b71bfa65ddc659ba",
         "type": "tabs",
         "children": [
           {
-            "id": "c955145a18954171",
+            "id": "2293e5bf478dcaf9",
             "type": "leaf",
             "state": {
-              "type": "bases",
-              "state": {
-                "file": "無題のファイル.base",
-                "viewName": "Table"
-              },
-              "icon": "lucide-table",
-              "title": "無題のファイル"
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "新規タブ"
             }
           }
         ]
@@ -93,7 +90,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "無題のファイル.base",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +99,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "無題のファイルへのバックリンク"
+              "title": "バックリンク"
             }
           },
           {
@@ -191,15 +187,18 @@
   },
   "active": "26a8828c26ef2416",
   "lastOpenFiles": [
+    "_template",
+    "無題のファイル.base",
+    "Clippings/難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
+    "Clippings/無題のファイル.md",
+    "2025-08-21.md",
+    "README.md",
+    "Welcome.md",
     "Clippings/スマホのObsidianをGitで同期(2024.11).md",
     "無題のファイル 1.base",
-    "README.md",
-    "無題のファイル.base",
     "Clippings",
-    "assets",
-    "Welcome.md",
+    "_assets",
     "00_Inbox",
-    "2025-08-21.md",
     "無題のファイル.canvas"
   ]
 }

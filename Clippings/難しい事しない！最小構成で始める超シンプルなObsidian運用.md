@@ -1,0 +1,307 @@
+---
+title: "難しい事しない！最小構成で始める超シンプルなObsidian運用"
+source: "https://zenn.dev/1227yukimura/articles/minimal_obsidian_notation_flow"
+author:
+  - "[[Zenn]]"
+published: 2025-05-18
+created: 2025-08-22
+description:
+tags:
+  - "clippings"
+---
+10
+
+3[idea](https://zenn.dev/tech-or-idea)
+
+## はじめに
+
+プレーンテキストでのメモ取りに人気のObsidian──  
+でも、いざ使おうとすると…
+
+- 「プラグイン前提のセットアップが複雑すぎる…」
+- 「Zettelkasten？タグ？ディレクトリ構成？考えることが多すぎて手が止まる…」
+
+そんな **“メモを取り始める第一歩”** すら踏み出せずにいるあなたに贈るミニマルガイドです。
+
+この記事を読むと
+
+- **複雑な設定をせず** にObsidianを使ってメモを取り始められる
+- **無駄のないシンプルなメモ書きルール** で **思考する** ことに集中できる
+- 重要なメモは、 **再利用しやすい形で洗練されていく**
+
+そんなシンプルで実用的な **PKM(Personal Knowledge Management)** の構築と運用方法が分かります。
+
+## 対象読者
+
+- Obsidianは気になるけど、プラグイン設定が難しそうで躊躇している方
+- 「フォルダ選び」「タグ付け」「ID振り」で思考が中断されるのが嫌な方
+- 「書く前」の判断を徹底的に減らしたい方
+- 最初はミニマルにはじめて、徐々に自分好みにカスタマイズしたい方
+
+## 記事の概要
+
+1. **セットアップは超ミニマル**
+	- フォルダは３つ：ざっくり書き出す用／がっつり考える用／見返す用
+	- プラグインはCalendarのみ
+	- 具体的な設定内容の紹介
+2. **思考の流れを止めないシンプルなメモ書きフロー**
+	- 書く場所の迷いを排除：とにかく「ざっくり書き出す用」にメモ
+		- 深めるテーマは「がっつり考える用」で熟考
+		- 後日参照したら「見返す用」に格上げし、メモを財産化
+3. **(さらに便利にしたい人向け)カスタマイズ例の紹介**
+
+## 1\. セットアップは超ミニマル
+
+Obsidian導入からテンプレート作成まで、最低限の手順でサクッと始めましょう。
+
+### 1.1 Obsidianのインストール
+
+1. 公式サイト（ [https://obsidian.md](https://obsidian.md/) ）にアクセス
+2. お使いのOS版インストーラをダウンロード
+3. インストーラを実行し、画面の指示に従ってインストール
+
+### 1.2 保管庫(Vault)＆ ディレクトリの作成
+
+ターミナルで、以下のようにフォルダを作成します。  
+保管庫(Vault)は、お好みの場所に作っていただければと思いますが、本記事では、 `~/ObsidianNotes/` に作成するものとして進めていきます。
+
+```bash
+mkdir -p ~/ObsidianNotes/{_template,_assets,activityJournals,thoughtSpace,knowledge}
+```
+
+- `ObsidianNotes/` ：Obsidianの保管庫
+- メモ置き場
+	- `activityJournals/` ： **ざっくり書き出す用** 日次で分けたメモを置きます。
+	- `thoughtSpace/` ： **がっつり考える用** 特定のテーマについて書きながら思考を深める時に使います。
+	- `knowledge/` ： **見返す用** 後日参照したタイミングで、小さく形式知としてまとめておくのに使います。
+- メモ以外のファイル置き場
+	- `_template/` ：テンプレート置き場
+	- `_assets/` ：画像・PDFなどの添付リソース
+
+Vaultを開く際には、この `~/ObsidianNotes/` を選択してください。
+
+### 1.3 Calendarプラグインのインストール
+
+「とりあえずメモを取り始める」のに、日次でわけたメモファイルを作るのに、便利なCaelndarプラグインだけは、追加でインストールします。
+
+1. **Preferencies > Community plugins** へ移動
+2. **Browse** ボタンをクリックし、「Calendar」を検索
+3. **Install** → **Enable**
+
+![](https://res.cloudinary.com/zenn/image/fetch/s--XSv39cOB--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/c689fb7f8584b396f9ff21ce.png%3Fsha%3D48f10732a17157621cf8adac9c00a33fb3be6669)
+
+### 1.4 テンプレートの作成
+
+`_template/` フォルダに以下のファイルを作成しましょう。最小構成ですので、最初は一つだけあれば十分です。
+
+#### \_templates/DailyNotesTemplate.md
+
+多くのメモは、書く場所やタイトルやタグなど、事前に考えたり判断したりしなくて済むように、日々のメモを作って、なぐり書きをしていくので、日々のメモのテンプレートを作っておきます。  
+このテンプレートは使いながら、自分の好みになるように、育てていってください。  
+筆者は、随時微調整をいれつつ、以下のようなテンプレートにしています。
+
+\_templates/DailyNotesTemplate.md
+
+```markdown
+Y
+```
+
+- **Settings > Templates** で「Template folder location」を `_template/` に設定
+- 各テンプレートを呼び出せることを確認
+
+### 1.5 Obsidianの設定
+
+#### Files and Linksの設定
+
+基本的には、日々のメモにざっくり書きだす運用をします。「ちょっとファイルをわけようかな？？」なんて思ったときも、日々メモの一部として、ファイルを作成するようにします。  
+また、画像などを貼り付けたときに、散らからないように、 `_assets/` に添付ファイルが集約されるようにします。
+
+「Preferences」->「Files and links」を開き、以下のように調整してください。
+
+- Default location for new notes: Same folder as current file に変更
+- Default location for new attachments: In the folder specified belowに変更
+- Attachment folder path: `_assets/images` を入力
+
+![](https://res.cloudinary.com/zenn/image/fetch/s--ws2f1S1m--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/69601187e0b7dd365d907190.png%3Fsha%3D80bcc6fce0d3a6aec8d2d3cb07da08bc9cee8bfe)
+
+#### Backlinksの有効化
+
+Obsidianでは、メモ同士のリンクを相互に紐づけることが簡単にでき、そのリンク同士をたどりやすくする機能が多々あります。その一つのBacklinksという機能を利用することで、メモのリンクを一方向で貼ると、逆方向からも辿れるようになり、非常に有用なので有効化しておきましょう。  
+「Preferences」->「Backlinks」を開き、「Show backlinks at the bottom of notes」をONにしてください。
+
+![](https://res.cloudinary.com/zenn/image/fetch/s--Q1vsaTEb--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/30321c63b303f5bba6f12885.png%3Fsha%3D550b67510a8ee01a2b3ad6e42d057a287d079056)
+
+#### templateファイルの参照先を調整
+
+Obsidianでは、メモを作成する際に、自由にテンプレートファイルを作成して、快適にメモを取り始めることができます。  
+テンプレートファイルは、 `_templates/` に集約しておきたいので、「Preferences」->「Templates」を開き、「Template folder location」に、以下を入力してください。
+
+```
+# ② 部分 テンプレートファイルは、_templates/に集約されるように調整
+_templates
+```
+
+![](https://res.cloudinary.com/zenn/image/fetch/s--f067YVBn--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/04c76ce525e009cf14665a4f.png%3Fsha%3Ddffc7691d35df1a9b517d86411e51d589a6de263)
+
+#### Daily notesの設定
+
+運用として、基本的には日々のメモになぐり書きを行うので、日々のメモが散らからないように、日毎に自動的に `activityJournals/YYYY/MM/DD` ディレクトリにファイルが作成されるようにします。  
+また、先ほど作成してテンプレートが自動的に埋め込まれるようにもしておきます。
+
+「Preferences」->「Daily notes」を開き、以下の通り設定してください。
+
+```
+# ① 部分 Daily notesが日別にディレクトリが切られるように調整
+YYYY/MM/DD/YYYY-MM-DD
+
+# ② 部分 Daily notesは、activityJournals配下に配置されるように調整
+activityJournals
+
+# ③ 部分 Daily notesで利用されるテンプレートファイルを先程作ったものを使うように調整
+_templates/DailyNotesTemplate.md
+```
+
+![](https://res.cloudinary.com/zenn/image/fetch/s--BDGin-3c--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/9d638f50166db9786106cc2b.png%3Fsha%3Dd12b059d9aaffdf4ddf832f8a46f1d52eb4eb18e)
+
+以上で、 **日々のメモにざっくり書きだす** ことができる最小構成の準備が完了です！  
+次節では、「思考の流れを止めないシンプルなメモ書きフロー」を紹介します。
+
+## 2\. 思考の流れを止めないシンプルなメモ書きフロー
+
+筆者は、日々の思考をスムーズにメモしつつ、重要な情報は形式知として蓄積するシンプルなフローを実践しています。  
+複雑なフローになると、長続きしないため、極力シンプルなフローを意識しつつ、メモの資産価値を高めていくことを目指しています。
+
+### 2.1 とにかくざっくり書き出す(activityJournals/)
+
+何が形式知になるかわからないので、とにかく、まずは書くというのを大事にします。  
+書き始める前に、どこに書こうか？どんなタグをつけようか？などの **迷いうることは一切せず** 、日別のメモを作ってとりあえずメモを書きましょう。
+
+先程の設定とCalendarプラグインで、日別のメモを簡単に作ることができます。
+
+具体的な操作手順
+
+![](https://res.cloudinary.com/zenn/image/fetch/s--x0DA62G6--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/d63bc92486a9ac6d3a5cb3a2.png%3Fsha%3D96ca8207de2c72d757249ca5b340ddd7c7291784)
+
+- **ポイント**:
+	- 思いついたら即「ざっくり書き出す」
+	- 整理は、後回しで「とにかく書く」ことに注力！！
+
+### 2.2 テーマ毎にがっつり考える(thoughtSpace/)
+
+明確にテーマがあり、深く思考を巡らしたいときは、そのテーマについて、メモを作成し、思考を巡らせつつ、思考内容や調査内容などをメモしていきます。  
+ただし、ちょっとしたテーマであれば、まずは、日別のメモディレクトリに、別名をつけて保存しておいて、別日にも同じテーマで思考を巡らせたくなった時に、「がっつり考える用の場所(`thoughtSpace/`)」に移動することをおすすめします。  
+日を跨いで思考を巡らす必要があるようなものだけが、格納されるイメージです。
+
+- **ポイント**:
+	- ファイル名はテーマ名（例: \`挫折しない学習方法について.md\`\`)
+	- 思考を深めたいトピックごとに1ファイル
+	- まずは、 `thoughtSpace/` を使わずに、 `activityJournals/` でメモ
+		- 日を跨ぐような深いテーマのみを移動
+
+例えば、本ブログは、一気に書き上げているので、まずは、 `activityJournals/YYYY/MM/DD/` にメモをしています。  
+一方で、最近の筆者の関心事である「挫折しない学習方法について」というテーマは、ことあるごとに考えているので、 `thoughtSpace/` にて思考を巡らせたメモを作成しています。
+
+![](https://res.cloudinary.com/zenn/image/fetch/s--YAXuR3Y9--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/f5055f20f5e29c332553b79e.png%3Fsha%3D74fde679fc8fada6b62313ccb88df0f7ae1c1b42)
+
+### 2.3 実際に参照したくなったメモのみを「見返す用」に格上げ(knowledge/)
+
+ここまでの節で、書き出す前の判断を極力減らすことで、「とにかくざっくり書き出す」メモと「テーマ毎にがっつり考える」メモを書くようになりました。
+
+最後に、書いたメモを資産化して活用していくことを考えていきます。  
+これまでは、とにかく書き残すことを重視して、参照/活用することは意識していませんでした。  
+筆者のメモ書きフローでは、実際に **参照したメモのみ** を、「 **今後も参照されうる重要なメモ** 」捉えて、整理作業を行います。
+
+余談：ここまでのメモは、参照されることを意識してこなかった背景
+
+とにかくメモをするほうが重要なので、メモを書く前に判断が必要なことは一切排除して、書くこと自体の敷居を下げたかったからです。  
+また、参照されることを意識したとしても、実際に参照されることは少なく、その意識が無駄になることが多いことが理由です。
+
+整理作業では、これまで極力しないようにしてきた、
+
+- どういうタグにすると参照しやすいか？
+- もし未来の自分が参照するとしたらどう参照しそうか？
+- メモとメモのつながりはなんだろうか？
+- 分かりづらい表現はないだろうか？
+
+といった判断や検討が入ります。記述する場所は、 `knowledge/` で迷うことはないのですが、今後参照される可能性がなるべく高くなり、また参照された時に扱いやすい形式知となるように、以下を意識します。
+
+**ポイント**
+
+- 参照したメモは“資産”と考え大事にする
+- 極力小さいトピックにまとめ、関連トピックは、リンクを貼る
+- 未来の自分を想像して、検索するためのタグを考える
+- 参照するたびにブラッシュアップするつもりで、完璧は目指さない
+
+## おわりに
+
+以上で、
+
+- Obsidianを最小構成でメモを取る環境を **迅速に構築** できる
+- **とにかくまずは書く** 習慣が作れる
+- 情報資産としての **価値のあるメモに昇華** していける
+
+を実現する最小構成のメモ環境の構築手順とシンプルな運用フローを紹介しました。  
+個人的には、導入コストが低く、運用コストも低い割に、 **思考の深堀り** がにつながり、 **メモの再活用** によって、 **新たなアイディアの創出** にもつながります。
+
+今回紹介したメモの運用フローは、 [TAKE NOTES!――メモで、あなただけのアウトプットが自然にできるようになる](https://www.amazon.co.jp/dp/4296000411) という書籍で詳しく紹介されている、「ツェッテルカステン」を参考に、さらに怠惰な自分でも運用しやすいように、よりシンプルな形にしているものです。  
+この書籍は、思わずメモを取りたくなるような内容が詰まっているので、よかったら是非読んでみてください！！
+
+---
+
+## 3\. (さらに便利にしたい人向け)カスタマイズ例の紹介
+
+以上で、最小構成Obsidianでミニマルな運用フローをお伝えする目的で、伝えたいことは紹介しきりました。  
+が、せっかくObsidianを使うので、ミニマルな最小構成+αを目指したい!! という人にむけて、最小構成からステップアップしていくために、筆者がやっているカスタマイズの事例を紹介して終わりたいと思います。
+
+<!--  
+この節は、筆者のメモ運用で、良いものを紹介していくため、良い運用を見つけた時に、随時加筆修正していくことを想定しています。  
+\-->
+
+### GitHubで管理したい
+
+Obsidianの保管庫(Vault)は、ローカルのファイルシステムを利用するのですが、筆者は、GitHubに同期をして、GitHub上でちょっとした参照ができるようにしています。
+
+具体的には、「Git」プラグインを利用しています。
+
+![](https://res.cloudinary.com/zenn/image/fetch/s--Ecm4guWs--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/aa5b35f66ae4c3d2653f5941.png%3Fsha%3D7d2cbebc908693d4c59ab604735a608cdfa93250)
+
+とても有名なプラグインで広く利用されているものなので、基本的なインストールや設定は、「 [Vinzent03/obsidian-git](https://github.com/Vinzent03/obsidian-git) 」や、他の紹介記事に委ねます。
+
+GitHub上で、メモのリンクが辿れるように、以下の設定を行っています。
+
+#### GitHub上でリンクが辿れるように設定を調整
+
+メモ同士をリンクする場合に、Wiki形式のリンク(`[[フォーマット|こんなの]]`)だと、GitHub上でMarkdownをPreviewしてもリンクとして認識されないので、Markdown形式のリンク( `[こんなの](リンク)` になるように調整を行います。  
+合わせて、リンクが相対パスでリンクされるように調整します。
+
+![](https://res.cloudinary.com/zenn/image/fetch/s--gEgAm5Q1--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/0057d1eeab5d54c2a7f91c76.png%3Fsha%3D9417ef06e4e8e8b4324dd9819c779d8a173ef044)
+
+この調整をすることで、GitHub上でもリンクを辿れるようになったり画像が表示されるようになるので、メモを見やすくなります。  
+![](https://res.cloudinary.com/zenn/image/fetch/s--ydnhzi0j--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/bbc5a253c88ba169bcf519c6.png%3Fsha%3D991e03d2ae422c38890c63bdd3ce8dc5a34f6bdf)
+
+### メモを切り出すのをもっと便利にしたい！！
+
+メモしている内容を、 `knowledge/` に整理するなど、メモ全体ではなく、より小さなメモに切り出せると便利です。  
+Obsidianでは、より小さなメモに切り出すのに **Note composer** という機能が提供されており、これを利用すると「選択した部分のメモ」を 別ファイルに切り出してリンクしておくことが簡単にできます。  
+さらに、ただリンクしておくだけでなく、切り出した元のファイルで内容が自動的に埋め込まれるようにしておくと、「選択した部分のメモ」は切り出しつつ、「メモを読む体験は、切り出し前と変わらない」ようにできるので設定を調整します。
+
+言葉では伝わりづらいと思いますので、動画を添付します。
+
+![](https://storage.googleapis.com/zenn-user-upload/deployed-images/065ebbec0e6a07705a8ca7d4.gif?sha=0bb5ae44fcded8713f8c09adcbad888829672698)
+
+具体的な設定としては、以下のように、「Note composer」の「Text after extraction」の設定を「Embed new file」にします。
+
+![](https://res.cloudinary.com/zenn/image/fetch/s--3xrrk95h--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/b7d1ec8eb2a00fdb781bfaca.png%3Fsha%3D9ea2b11d530ca3c252c188c0f1c7e63cb6f4ced3)
+
+### Obsidianのテーマカラーを切り替えたい！！
+
+Obsidianでは、見た目の雰囲気を切り替えるのに、カラーテーマを設定する機能を提供しており、サードパーティ含めて、たくさんのカラーテーマを追加でインストールして切り替えることが可能です。  
+「Preferences」->「Appearance」を開き、「Manage」を押すと、いろいろなカラーテーマが検索できますので、 お気に入りのテーマカラーを探して、自分好みのカラーテーマを設定しましょう。
+
+![](https://res.cloudinary.com/zenn/image/fetch/s--SM9uHS2K--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_1200/https://storage.googleapis.com/zenn-user-upload/deployed-images/fd671780ae2a4f6e939e6e2a.png%3Fsha%3D88dc9cc3682429a046d0b5d474752138561b6c9d)
+
+[GitHubで編集を提案](https://github.com/yukimura1227/zenn/blob/main/articles/minimal_obsidian_notation_flow.md)
+
+10
+
+3
