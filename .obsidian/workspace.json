@@ -38,14 +38,13 @@
             "id": "df0ed5b64cfac120",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "bases",
               "state": {
-                "file": "00_Inbox/一分で話せ.md",
-                "mode": "source",
-                "source": false
+                "file": "読書記録ボード.base",
+                "viewName": "View"
               },
-              "icon": "lucide-file",
-              "title": "一分で話せ"
+              "icon": "lucide-layout-grid",
+              "title": "読書記録ボード"
             }
           }
         ],
@@ -222,12 +221,12 @@
   },
   "active": "df0ed5b64cfac120",
   "lastOpenFiles": [
+    "00_Inbox/250822_一分で話せ.md",
     "読書記録ボード.base",
-    "00_Inbox/一分で話せ.md",
+    "00_Inbox/250822_スマホのObsidianをGitで同期(2024.11).md",
+    "00_Inbox/250822_難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
     "_assets/book_一分で話せ.webp",
     "00_Inbox/250822_Obsidian で vim を使ってみた｜devlive.md",
-    "00_Inbox/250822_難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
-    "00_Inbox/250822_スマホのObsidianをGitで同期(2024.11).md",
     "_template/main_template.md",
     "00_Inbox/2025-08-22.md",
     "00_Inbox/Invalid date.md",

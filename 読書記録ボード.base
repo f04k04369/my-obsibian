@@ -1,11 +1,12 @@
 views:
-  - type: table
-    name: Table
-    order:
-      - file.name
-      - image
   - type: cards
     name: View
+    filters:
+      and:
+        - aliases == ["読書記録"]
+    order:
+      - file.name
+      - created
     imageAspectRatio: 1
     cardSize: 160
     image: note.image
