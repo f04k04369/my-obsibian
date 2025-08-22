@@ -51,14 +51,12 @@
             "id": "aa0764fa42720527",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "00_Inbox/250822_ガルト_生成ai画像仕様変更検証.md",
-                "mode": "source",
-                "source": false
+                "file": "_assets/book_一分で話せ.webp"
               },
-              "icon": "lucide-file",
-              "title": "250822_ガルト_生成ai画像仕様変更検証"
+              "icon": "lucide-image",
+              "title": "book_一分で話せ"
             }
           }
         ],
@@ -233,15 +231,19 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "aa0764fa42720527",
+  "active": "26a8828c26ef2416",
   "lastOpenFiles": [
-    "読書記録ボード.base",
+    "_assets/%E4%B8%80%E5%86%8A%E3%81%A6%E3%82%99.jpg",
+    "_assets/%E4%B8%96%E7%95%8C.jpg",
+    "_assets/book_一分で話せ.webp",
+    "_assets/%E5%88%9D%E5%BF%83%E8%80%85.jpg",
+    "_assets/%E4%BB%95%E4%BA%8B%E3%81%8B%E3%82%99.jpg",
     "00_Inbox/250822_ガルト_生成ai画像仕様変更検証.md",
+    "読書記録ボード.base",
     "90_businessTask",
     "00_Inbox/250822_一分で話せ.md",
     "00_Inbox/250822_スマホのObsidianをGitで同期(2024.11).md",
     "00_Inbox/250822_難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
-    "_assets/book_一分で話せ.webp",
     "00_Inbox/250822_Obsidian で vim を使ってみた｜devlive.md",
     "_template/main_template.md",
     "00_Inbox/2025-08-22.md",
