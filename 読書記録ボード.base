@@ -1,7 +1,12 @@
 views:
   - type: table
     name: Table
+    order:
+      - file.name
+      - image
   - type: cards
     name: View
     imageAspectRatio: 1
     cardSize: 160
+    image: note.image
+    imageFit: contain
