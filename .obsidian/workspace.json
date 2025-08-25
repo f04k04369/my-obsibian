@@ -66,12 +66,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "00_Inbox/250822_studioでのタブ切り替え時に高さを自動調節する実装.md",
+                "file": "90_businessTask/250822_ガルト_生成ai画像仕様変更検証.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "250822_studioでのタブ切り替え時に高さを自動調節する実装"
+              "title": "250822_ガルト_生成ai画像仕様変更検証"
             }
           }
         ],
@@ -248,11 +248,15 @@
   },
   "active": "8ea3fac28761a469",
   "lastOpenFiles": [
-    "読書記録ボード.base",
-    "00_Inbox/250822_studioでのタブ切り替え時に高さを自動調節する実装.md",
+    "10_tips/250822_Obsidian で vim を使ってみた｜devlive.md",
+    "10_tips/250822_難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
+    "10_tips/250822_スマホのObsidianをGitで同期(2024.11).md",
+    "10_tips/250822_studioでのタブ切り替え時に高さを自動調節する実装.md",
+    "90_businessTask/250822_ガルト_生成ai画像仕様変更検証.md",
+    "10_tips",
     "80_book/250822_一分で話せ.md",
+    "読書記録ボード.base",
     "00_Inbox/book_一分で話せ.webp.md",
-    "00_Inbox/250822_ガルト_生成ai画像仕様変更検証.md",
     "80_book",
     "_assets/%E5%88%9D%E5%BF%83%E8%80%85.jpg",
     "_assets/book_78.jpg",
@@ -265,9 +269,6 @@
     "_assets/book_71.jpg",
     "_assets/book_70.jpg",
     "90_businessTask",
-    "00_Inbox/250822_スマホのObsidianをGitで同期(2024.11).md",
-    "00_Inbox/250822_難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
-    "00_Inbox/250822_Obsidian で vim を使ってみた｜devlive.md",
     "_template/main_template.md",
     "00_Inbox/2025-08-22.md",
     "00_Inbox/Invalid date.md",
