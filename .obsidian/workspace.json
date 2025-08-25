@@ -73,9 +73,19 @@
               "icon": "lucide-file",
               "title": "250822_ガルト_生成ai画像仕様変更検証"
             }
+          },
+          {
+            "id": "818592d476f697b3",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "グラフビュー"
+            }
           }
         ],
-        "currentTab": 4
+        "currentTab": 5
       }
     ],
     "direction": "vertical"
@@ -246,13 +256,14 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "8ea3fac28761a469",
+  "active": "818592d476f697b3",
   "lastOpenFiles": [
+    "90_businessTask/250825_ガルト_生成ai検証用モックアップLP制作.md",
+    "90_businessTask/250822_ガルト_生成ai画像仕様変更検証.md",
     "10_tips/250822_Obsidian で vim を使ってみた｜devlive.md",
     "10_tips/250822_難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
     "10_tips/250822_スマホのObsidianをGitで同期(2024.11).md",
     "10_tips/250822_studioでのタブ切り替え時に高さを自動調節する実装.md",
-    "90_businessTask/250822_ガルト_生成ai画像仕様変更検証.md",
     "10_tips",
     "80_book/250822_一分で話せ.md",
     "読書記録ボード.base",
