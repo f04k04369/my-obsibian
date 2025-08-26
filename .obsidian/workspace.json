@@ -101,9 +101,21 @@
               "icon": "lucide-file",
               "title": "250826_ガルト_生成ai画像仕様変更検証"
             }
+          },
+          {
+            "id": "01a392d7b39e74cd",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.9.12"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.9.12"
+            }
           }
         ],
-        "currentTab": 6
+        "currentTab": 7
       }
     ],
     "direction": "vertical"
@@ -274,7 +286,7 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "075021c5b5d79c0e",
+  "active": "01a392d7b39e74cd",
   "lastOpenFiles": [
     "90_businessTask/250822_ガルト_生成ai画像仕様変更検証事前調査.md",
     "00_Inbox/250826_ガルト_生成ai画像仕様変更検証.md",
