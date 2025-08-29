@@ -4,17 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "3f90e6221aee3d48",
+        "id": "e25f730b4a7e1ef7",
         "type": "tabs",
         "children": [
           {
-            "id": "2a751cace4ea8f6a",
+            "id": "05542f69255ba87c",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {},
+              "type": "markdown",
+              "state": {
+                "file": "99_template/00_ CreateNote.md",
+                "mode": "source",
+                "source": false,
+                "backlinks": true,
+                "backlinkOpts": {
+                  "collapseAll": false,
+                  "extraContext": false,
+                  "sortOrder": "alphabetical",
+                  "showSearch": false,
+                  "searchQuery": "",
+                  "backlinkCollapsed": false,
+                  "unlinkedCollapsed": true
+                }
+              },
               "icon": "lucide-file",
-              "title": "新規タブ"
+              "title": "00_ CreateNote"
             }
           }
         ]
@@ -188,8 +202,13 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "26a8828c26ef2416",
+  "active": "05542f69255ba87c",
   "lastOpenFiles": [
+    "99_template/main_template.md",
+    "99_template/00_ CreateNote.md",
+    "2025-08-29T21-21-46.md",
+    "98_assets/book_60.jpg",
+    "テスト.md",
     "98_assets/images/テスト",
     "98_assets/images/テスト/IMG-20250829210939832.jpg",
     "98_assets/images/無題のファイル",
@@ -201,8 +220,6 @@
     "98_assets/無題のファイル/IMG-20250829210508461.jpg",
     "_assets/images",
     "_assets",
-    "テスト.md",
-    "99_template/main_template.md",
     "60_businessTask/250822_ガルト_生成ai画像仕様変更検証事前調査.md",
     "40_dataView",
     "30_permanentNote",
@@ -217,12 +234,10 @@
     "50_book/250822_一分で話せ.md",
     "40_dataView/読書記録ボード.base",
     "00_Inbox/book_一分で話せ.webp.md",
-    "50_book",
     "_assets/%E5%88%9D%E5%BF%83%E8%80%85.jpg",
     "98_assets/book_78.jpg",
     "98_assets/book_77.jpg",
     "98_assets/book_76.jpeg",
-    "98_assets/book_75.jpeg",
     "00_Inbox/2025-08-22.md",
     "00_Inbox/Invalid date.md",
     "00_Inbox/無題のファイル 1.md",
