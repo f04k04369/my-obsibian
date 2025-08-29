@@ -1,10 +1,14 @@
 ---
 created:
-tags:
+tags: []
 aliases:
-reration:
+UID: <% tp.date.now("YYYY-MM-DDTHH-mm-ss") %>
 ---
+<%*
+const uid = tp.date.now("YYYY-MM-DDTHH-mm-ss"); // UID形式のファイル名（
+await tp.file.move(`${uid}`); // Vaultのルート直下にファイルを移動
+%>
+
 ## プロパティ解説
 - aliases：検索する際の別名
 - tags：タグ管理用
-- reration：関連ファイルの紐付け

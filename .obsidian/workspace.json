@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "99_template/00_ CreateNote.md",
+                "file": "99_template/main_template.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,7 +28,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "00_ CreateNote"
+              "title": "main_template"
             }
           }
         ]
@@ -204,8 +204,11 @@
   },
   "active": "05542f69255ba87c",
   "lastOpenFiles": [
+    "10_fleetingNote/250826_ガルト_生成ai画像仕様変更検証.md",
     "99_template/main_template.md",
-    "99_template/00_ CreateNote.md",
+    "99_template/main_template.md",
+    "20_literatureNote/250822_難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
+    "10_fleetingNote/無題のファイル.md",
     "2025-08-29T21-21-46.md",
     "98_assets/book_60.jpg",
     "テスト.md",
@@ -223,12 +226,10 @@
     "60_businessTask/250822_ガルト_生成ai画像仕様変更検証事前調査.md",
     "40_dataView",
     "30_permanentNote",
-    "10_fleetingNote/250826_ガルト_生成ai画像仕様変更検証.md",
     "60_businessTask/250825_ガルト_生成ai検証用モックアップLP制作.md",
     "20_literatureNote/250822_studioでのタブ切り替え時に高さを自動調節する実装.md",
     "00_Inbox/02.md",
     "20_literatureNote/250822_Obsidian で vim を使ってみた｜devlive.md",
-    "20_literatureNote/250822_難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
     "20_literatureNote/250822_スマホのObsidianをGitで同期(2024.11).md",
     "20_literatureNote",
     "50_book/250822_一分で話せ.md",

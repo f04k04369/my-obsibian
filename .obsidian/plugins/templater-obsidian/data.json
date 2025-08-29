@@ -15,7 +15,7 @@
   "enable_folder_templates": true,
   "folder_templates": [
     {
-      "folder": "/",
+      "folder": "10_fleetingNote",
       "template": "99_template/main_template.md"
     }
   ],
