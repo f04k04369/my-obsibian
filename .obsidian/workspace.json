@@ -11,24 +11,10 @@
             "id": "2a751cace4ea8f6a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "無題のファイル.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
+              "type": "empty",
+              "state": {},
               "icon": "lucide-file",
-              "title": "無題のファイル"
+              "title": "新規タブ"
             }
           }
         ]
@@ -202,15 +188,20 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "2a751cace4ea8f6a",
+  "active": "26a8828c26ef2416",
   "lastOpenFiles": [
+    "98_assets/images/テスト",
+    "98_assets/images/テスト/IMG-20250829210939832.jpg",
+    "98_assets/images/無題のファイル",
+    "98_assets/images/テスト/IMG-20250829210939821.jpg",
+    "98_assets/images",
+    "98_assets/images/無題のファイル/IMG-20250829210754653.jpg",
     "98_assets/無題のファイル",
     "98_assets/無題のファイル/IMG-20250829210728432.jpg",
-    "98_assets/images",
     "98_assets/無題のファイル/IMG-20250829210508461.jpg",
     "_assets/images",
     "_assets",
-    "無題のファイル.md",
+    "テスト.md",
     "99_template/main_template.md",
     "60_businessTask/250822_ガルト_生成ai画像仕様変更検証事前調査.md",
     "40_dataView",
@@ -232,10 +223,6 @@
     "98_assets/book_77.jpg",
     "98_assets/book_76.jpeg",
     "98_assets/book_75.jpeg",
-    "98_assets/book_74.jpg",
-    "98_assets/book_73.jpg",
-    "98_assets/book_72.jpg",
-    "60_businessTask",
     "00_Inbox/2025-08-22.md",
     "00_Inbox/Invalid date.md",
     "00_Inbox/無題のファイル 1.md",

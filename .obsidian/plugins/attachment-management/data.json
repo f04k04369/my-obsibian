@@ -2,7 +2,7 @@
   "language": "en",
   "attachPath": {
     "attachmentRoot": "98_assets",
-    "saveAttE": "inFolderBelow",
+    "saveAttE": "obsFolder",
     "attachmentPath": "${notepath}/${notename}",
     "attachFormat": "IMG-${date}",
     "type": "GLOBAL"
