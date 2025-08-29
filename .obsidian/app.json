@@ -1,6 +1,7 @@
 {
   "newFileLocation": "folder",
-  "attachmentFolderPath": "_assets/images",
-  "newFileFolderPath": "00_Inbox",
-  "vimMode": true
+  "attachmentFolderPath": "98_assets/images",
+  "newFileFolderPath": "10_fleetingNote",
+  "vimMode": true,
+  "alwaysUpdateLinks": true
 }
