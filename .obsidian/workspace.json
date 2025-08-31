@@ -13,30 +13,6 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_fleetingNote/250826_ガルト_生成ai画像仕様変更検証.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "250826_ガルト_生成ai画像仕様変更検証"
-            }
-          },
-          {
-            "id": "00c0e5d258debd50",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
                 "file": "10_fleetingNote/2025-08-31T21-35-23.md",
                 "mode": "source",
                 "source": false,
@@ -55,8 +31,7 @@
               "title": "2025-08-31T21-35-23"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -88,7 +63,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "obsi",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,8 +84,7 @@
               "title": "ブックマーク"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -228,11 +202,12 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "377c05ca1bd99581",
+  "active": "05542f69255ba87c",
   "lastOpenFiles": [
     "10_fleetingNote/250826_ガルト_生成ai画像仕様変更検証.md",
-    "10_fleetingNote/2025-08-31T21-35-23.md",
+    "2025-08-31T21-39-43.md",
     "99_template/main_template.md",
+    "10_fleetingNote/2025-08-31T21-35-23.md",
     "webclipper.md",
     "10_freetingNote/Untitled 1.md",
     "10_freetingNote/Untitled.md",
@@ -275,7 +250,6 @@
     "00_Inbox/2025-08-22.md",
     "00_Inbox/Invalid date.md",
     "00_Inbox/無題のファイル 1.md",
-    "00_Inbox/無題のファイル 2.md",
     "無題のファイル.canvas"
   ]
 }
