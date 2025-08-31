@@ -11,52 +11,13 @@
             "id": "05542f69255ba87c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "10_fleetingNote/250826_ガルト_生成ai画像仕様変更検証.md",
-                "mode": "preview",
-                "source": true,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "250826_ガルト_生成ai画像仕様変更検証"
-            }
-          },
-          {
-            "id": "9e98a7c94f5c6e59",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "2025-08-29T21-47-30.md",
-                "mode": "source",
-                "source": false,
-                "backlinks": true,
-                "backlinkOpts": {
-                  "collapseAll": false,
-                  "extraContext": false,
-                  "sortOrder": "alphabetical",
-                  "showSearch": false,
-                  "searchQuery": "",
-                  "backlinkCollapsed": false,
-                  "unlinkedCollapsed": true
-                }
-              },
-              "icon": "lucide-file",
-              "title": "2025-08-29T21-47-30"
+              "type": "graph",
+              "state": {},
+              "icon": "lucide-git-fork",
+              "title": "グラフビュー"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -227,10 +188,10 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "9e98a7c94f5c6e59",
+  "active": "05542f69255ba87c",
   "lastOpenFiles": [
-    "10_fleetingNote/250826_ガルト_生成ai画像仕様変更検証.md",
     "2025-08-29T21-47-30.md",
+    "10_fleetingNote/250826_ガルト_生成ai画像仕様変更検証.md",
     "2025-08-29T21-47-06.md",
     "99_template/main_template.md",
     "20_literatureNote/250822_難しい事しない！最小構成で始める超シンプルなObsidian運用.md",
