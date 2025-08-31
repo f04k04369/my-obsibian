@@ -11,9 +11,21 @@
             "id": "05542f69255ba87c",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "98_assets/pdf/生成AI活用事例集_google.pdf"
+              },
+              "icon": "lucide-file-text",
+              "title": "生成AI活用事例集_google"
+            }
+          },
+          {
+            "id": "00efa330fca26b6c",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "10_fleetingNote/2025-08-31T21-35-23.md",
+                "file": "10_fleetingNote/2025-08-31T22-26-32.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -28,10 +40,11 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-08-31T21-35-23"
+              "title": "2025-08-31T22-26-32"
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -202,13 +215,16 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "05542f69255ba87c",
+  "active": "00efa330fca26b6c",
   "lastOpenFiles": [
+    "webclipper.md",
+    "10_fleetingNote/2025-08-31T22-26-32.md",
+    "10_fleetingNote/2025-08-31T21-35-23.md",
+    "98_assets/pdf/生成AI活用事例集_google.pdf",
+    "98_assets/pdf",
     "10_fleetingNote/250826_ガルト_生成ai画像仕様変更検証.md",
     "2025-08-31T21-39-43.md",
     "99_template/main_template.md",
-    "10_fleetingNote/2025-08-31T21-35-23.md",
-    "webclipper.md",
     "10_freetingNote/Untitled 1.md",
     "10_freetingNote/Untitled.md",
     "10_freetingNote",
@@ -235,12 +251,10 @@
     "_assets",
     "60_businessTask/250822_ガルト_生成ai画像仕様変更検証事前調査.md",
     "40_dataView",
-    "30_permanentNote",
     "60_businessTask/250825_ガルト_生成ai検証用モックアップLP制作.md",
     "20_literatureNote/250822_studioでのタブ切り替え時に高さを自動調節する実装.md",
     "00_Inbox/02.md",
     "20_literatureNote/250822_スマホのObsidianをGitで同期(2024.11).md",
-    "20_literatureNote",
     "50_book/250822_一分で話せ.md",
     "00_Inbox/book_一分で話せ.webp.md",
     "_assets/%E5%88%9D%E5%BF%83%E8%80%85.jpg",
@@ -249,7 +263,6 @@
     "98_assets/book_76.jpeg",
     "00_Inbox/2025-08-22.md",
     "00_Inbox/Invalid date.md",
-    "00_Inbox/無題のファイル 1.md",
     "無題のファイル.canvas"
   ]
 }
