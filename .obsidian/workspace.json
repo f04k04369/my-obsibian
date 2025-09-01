@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_fleetingNote/2025-08-31T21-35-23.md",
+                "file": "20_literatureNote/2025-08-31T21-35-23.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -49,7 +49,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "10_fleetingNote/2025-09-01T12-19-20.md",
+                "file": "60_businessTask/250825_ガルト_生成ai検証用モックアップLP制作.md",
                 "mode": "source",
                 "source": false,
                 "backlinks": true,
@@ -64,7 +64,7 @@
                 }
               },
               "icon": "lucide-file",
-              "title": "2025-09-01T12-19-20"
+              "title": "250825_ガルト_生成ai検証用モックアップLP制作"
             }
           }
         ],
@@ -239,15 +239,16 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "26a8828c26ef2416",
+  "active": "93404bde11ed18a0",
   "lastOpenFiles": [
-    "10_fleetingNote/2025-08-31T21-35-23.md",
-    "10_fleetingNote/2025-09-01T12-19-20.md",
-    "10_fleetingNote/2025-08-31T22-26-32.md",
+    "60_businessTask/250822_ガルト_生成ai画像仕様変更検証事前調査.md",
+    "10_fleetingNote/250826_ガルト_生成ai画像仕様変更検証.md",
+    "20_literatureNote/2025-09-01T12-19-20.md",
+    "20_literatureNote/2025-08-31T22-26-32.md",
+    "20_literatureNote/2025-08-31T21-35-23.md",
     "webclipper.md",
     "98_assets/pdf/生成AI活用事例集_google.pdf",
     "98_assets/pdf",
-    "10_fleetingNote/250826_ガルト_生成ai画像仕様変更検証.md",
     "2025-08-31T21-39-43.md",
     "99_template/main_template.md",
     "10_freetingNote/Untitled 1.md",
@@ -274,7 +275,6 @@
     "98_assets/無題のファイル/IMG-20250829210508461.jpg",
     "_assets/images",
     "_assets",
-    "60_businessTask/250822_ガルト_生成ai画像仕様変更検証事前調査.md",
     "40_dataView",
     "60_businessTask/250825_ガルト_生成ai検証用モックアップLP制作.md",
     "20_literatureNote/250822_studioでのタブ切り替え時に高さを自動調節する実装.md",
