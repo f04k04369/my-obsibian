@@ -68,7 +68,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -239,15 +239,16 @@
       "markdown-importer:Markdownインポーターを開く": false
     }
   },
-  "active": "93404bde11ed18a0",
+  "active": "00efa330fca26b6c",
   "lastOpenFiles": [
+    "98_assets/pdf/生成AI活用事例集_google.pdf",
+    "60_businessTask/250825_ガルト_生成ai検証用モックアップLP制作.md",
     "60_businessTask/250822_ガルト_生成ai画像仕様変更検証事前調査.md",
     "10_fleetingNote/250826_ガルト_生成ai画像仕様変更検証.md",
     "20_literatureNote/2025-09-01T12-19-20.md",
     "20_literatureNote/2025-08-31T22-26-32.md",
     "20_literatureNote/2025-08-31T21-35-23.md",
     "webclipper.md",
-    "98_assets/pdf/生成AI活用事例集_google.pdf",
     "98_assets/pdf",
     "2025-08-31T21-39-43.md",
     "99_template/main_template.md",
@@ -276,7 +277,6 @@
     "_assets/images",
     "_assets",
     "40_dataView",
-    "60_businessTask/250825_ガルト_生成ai検証用モックアップLP制作.md",
     "20_literatureNote/250822_studioでのタブ切り替え時に高さを自動調節する実装.md",
     "00_Inbox/02.md",
     "20_literatureNote/250822_スマホのObsidianをGitで同期(2024.11).md",
@@ -286,7 +286,6 @@
     "98_assets/book_78.jpg",
     "98_assets/book_77.jpg",
     "98_assets/book_76.jpeg",
-    "00_Inbox/2025-08-22.md",
     "無題のファイル.canvas"
   ]
 }
